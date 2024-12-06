@@ -78,12 +78,6 @@ export default {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      screens: {
-        "3xl": "1792px",
-        "4xl": "2048px",
-        "5xl": "2304px",
-        "6xl": "2560px",
-      },
     },
   },
   plugins: [require("tailwindcss-animate")],

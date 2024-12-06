@@ -121,15 +121,16 @@ export const FAQS = [
     title: "How much is monthly maintenance fee for the card?",
   },
   {
-    content: "Zero! There's no maintenance fee",
+    content: "There's no required fee to fund the card. It is completely free",
     title: "Is there a fee for funding to fund the card",
   },
   {
-    content: "Zero! There's no maintenance fee",
+    content:
+      "You can claim your card for free! Just so you know, no fee is required",
     title: "How much do I pay to claim a card?",
   },
   {
-    content: "Zero! There's no maintenance fee",
+    content: "A Minimum balance of $3 is required at all times",
     title: "Do need to have a minimum balance? ",
   },
 ];

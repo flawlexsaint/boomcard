@@ -10,7 +10,7 @@ export const Wrapper: FC<WrapperProps> = ({ children, className }) => {
   return (
     <section
       className={cn(
-        "w-[95%] lg:w-[90%] 4xl:w-[80%] 5xl:w-[70%] 6xl:w-[50%] mx-auto",
+        "w-[95%] md:w-[90%] lg:w-[80%] xl:w-[1408px] 4xl:w-[1408px] 5xl:w-[1408px] 6xl:w-[1408px] mx-auto",
         className
       )}
     >
