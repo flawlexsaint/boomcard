@@ -37,8 +37,8 @@ export default function Services() {
   };
 
   return (
-    <Wrapper className="h-[860px] lg:h-[1300px] xl:h-[1000px]">
-      <div className="bg-[#B6EF8A] w-full py-[73px] px-4 xl:px-[76px] h-[798px] lg:h-[1100px] xl:h-[798px] rounded-[20px] xl:rounded-[38px] my-[12px] xl:my-[56px] relative mx-0">
+    <Wrapper className="h-[860px] md:h-[958px] lg:h-[1300px] xl:h-[1000px]">
+      <div className="bg-[#B6EF8A] w-full py-[73px] px-4 xl:px-[76px] h-[738px] md:h-[798px] lg:h-[1100px] xl:h-[798px] rounded-[20px] xl:rounded-[38px] my-[12px] xl:my-[56px] relative mx-0">
         <div className="block xl:flex" ref={ref}>
           <motion.div
             initial="hidden"
@@ -71,7 +71,7 @@ export default function Services() {
             initial="hidden"
             animate={controls}
             variants={imageVariants}
-            className="xl:w-[1100px] xl:h-[956px] absolute right-[-20px] lg:right-[-60px] xl:right-[-90px] mt-5 xl:mt-0"
+            className="xl:w-[1100px] xl:h-[956px] absolute right-[-20px] lg:right-[-130px] xl:right-[-147px] mt-5 xl:mt-0"
           >
             <Image alt="hero card" src={HERO_CARD} />
           </motion.div>

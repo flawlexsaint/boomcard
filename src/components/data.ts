@@ -13,14 +13,14 @@ import {
 
 export const NAV_ITEMS = [
   {
-    route: "/",
     type: "text",
     title: "Home",
+    route: "/#home",
   },
   {
-    route: "/",
     type: "text",
     title: "FAQs",
+    route: "/#faqs",
   },
   {
     route: "/",
@@ -37,14 +37,14 @@ export const NAV_ITEMS = [
 
 export const MOBILE_NAV_ITEMS = [
   {
-    route: "/",
     type: "text",
     title: "Home",
+    route: "/#home",
   },
   {
-    route: "/",
     type: "text",
     title: "FAQs",
+    route: "/#faqs",
   },
   {
     route: "/",
@@ -130,8 +130,9 @@ export const FAQS = [
     title: "How much do I pay to claim a card?",
   },
   {
-    content: "A Minimum balance of $3 is required at all times",
-    title: "Do need to have a minimum balance? ",
+    content:
+      "A Minimum balance of $3 is required at all times",
+    title: "Do need to have a minimum balance?",
   },
 ];
 
@@ -156,7 +157,7 @@ export const FOOTER_ITEMS = [
   {
     type: "text",
     title: "FAQs",
-    route: "/faqs",
+    route: "/#faqs",
     style: "border-l border-l-[B3B3B3] border-l-[3px]",
   },
 ];

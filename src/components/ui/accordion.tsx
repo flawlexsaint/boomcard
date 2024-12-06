@@ -36,17 +36,17 @@ const AccordionTrigger = React.forwardRef<
       <svg
         width="33"
         height="33"
-        viewBox="0 0 33 33"
         fill="none"
-        class="w-6 h-6 transition-transform duration-300 [&[data-state=open]>svg]:rotate-180"
+        viewBox="0 0 33 33"
+        className="w-6 h-6 transition-transform duration-300 [&[data-state=open]>svg]:rotate-180"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
           d="M25.7221 12.4929L16.3888 20.4929L7.05548 12.4929"
           stroke="#0D0D0D"
-          stroke-width="3"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="3"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </AccordionPrimitive.Trigger>

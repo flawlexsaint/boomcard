@@ -22,7 +22,10 @@ export default function GetStarted() {
           <h3 className="text-white text-[20px]">
             Get Your Card for Just $3 Fund and start spending immediately
           </h3>
-          <Button variant="secondary" className="w-[200px] h-[52px] mt-4">
+          <Button
+            variant="secondary"
+            className="w-full xl:w-[200px] h-[52px] text-[16px] font-medium mt-4"
+          >
             Get Started
           </Button>
         </div>
@@ -43,7 +46,10 @@ export default function GetStarted() {
           <h3 className="text-white text-[18px] mt-3">
             Get Your Card for Just $3 Fund and start spending <br /> immediately
           </h3>
-          <Button variant="secondary" className="w-[200px] h-[52px] mt-10">
+          <Button
+            variant="secondary"
+            className="w-[200px] h-[52px] text-[16px] font-medium mt-10"
+          >
             Get Started
           </Button>
         </div>

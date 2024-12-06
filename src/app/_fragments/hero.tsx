@@ -38,7 +38,10 @@ export default function Hero() {
             Shop, Stream, and Subscribe Globally Shop online with the Boom Card
             around the world
           </p>
-          <Button variant="secondary" className="w-full xl:w-[200px] h-[52px]">
+          <Button
+            variant="secondary"
+            className="w-full xl:w-[200px] h-[52px] text-[16px] font-medium"
+          >
             Get Started
           </Button>
         </div>
@@ -142,23 +145,23 @@ export default function Hero() {
                       ))}
                     </div>
                   </motion.div>
-                  <div className="flex justify-center absolute bottom-0">
-                    <motion.div
-                      exit={{ opacity: 0 }}
-                      initial={{ opacity: 0 }}
-                      animate={{ y: [100, 0], opacity: 1 }}
-                      transition={{
-                        delay: 0.5,
-                        duration: 1.0,
-                        type: "spring",
-                        ease: "easeInOut",
-                      }}
-                    >
-                      <Image src={CARD} className="h-[500px]" alt="" />
-                    </motion.div>
-                  </div>
                 </>
               )}
+              <div className="flex justify-center absolute bottom-0">
+                <motion.div
+                  exit={{ opacity: 0 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ y: [100, 0], opacity: 1 }}
+                  transition={{
+                    delay: 0.5,
+                    duration: 1.0,
+                    type: "spring",
+                    ease: "easeInOut",
+                  }}
+                >
+                  <Image src={CARD} className="h-[460px]" alt="" />
+                </motion.div>
+              </div>
             </div>
           </div>
           {/* MOBILE SCREENS */}
@@ -261,27 +264,23 @@ export default function Hero() {
                       ))}
                     </div>
                   </motion.div>
-                  <div className="flex justify-center absolute bottom-0">
-                    <motion.div
-                      exit={{ opacity: 0 }}
-                      initial={{ opacity: 0 }}
-                      animate={{ y: [100, 0], opacity: 1 }}
-                      transition={{
-                        delay: 0.5,
-                        duration: 1.0,
-                        type: "spring",
-                        ease: "easeInOut",
-                      }}
-                    >
-                      <Image
-                        src={CARD_MOBILE}
-                        className="md:w-[550px]"
-                        alt=""
-                      />
-                    </motion.div>
-                  </div>
                 </>
               )}
+              <div className="flex justify-center absolute bottom-0">
+                <motion.div
+                  exit={{ opacity: 0 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ y: [100, 0], opacity: 1 }}
+                  transition={{
+                    delay: 0.5,
+                    duration: 1.0,
+                    type: "spring",
+                    ease: "easeInOut",
+                  }}
+                >
+                  <Image src={CARD_MOBILE} className="md:w-[550px]" alt="" />
+                </motion.div>
+              </div>
             </div>
           </div>
         </div>
