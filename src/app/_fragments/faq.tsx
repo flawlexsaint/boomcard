@@ -10,7 +10,7 @@ import React from "react";
 
 export default function Faqs() {
   return (
-    <Wrapper className="lg:w-[55%] xl:w-[775px] py-[12px] lg:py-[56px">
+    <Wrapper className="lg:w-[55%] xl:w-[875px] py-[12px] lg:py-[56px">
       <h1 className="font-bold text-[28px] lg:text-[50px] text-center mb-[25px] lg:mb-[38px]">
         Frequently Asked Questions
       </h1>

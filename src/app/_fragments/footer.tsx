@@ -23,7 +23,7 @@ export default function Footer() {
           ))}
         </ul>
       </div>
-      <Wrapper className="lg:w-[65%]">
+      <Wrapper className="lg:w-[65%] xl:w-[928px]">
         <p className="text-center text-[14px] lg:text-[18px]">
           © {new Date().getFullYear()} BoomCard All Rights Reserved <br /> The
           BoomCard Visa® Card is issued by our partner Financial Institutions,
