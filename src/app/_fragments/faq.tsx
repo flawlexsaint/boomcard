@@ -40,7 +40,7 @@ export default function Faqs() {
               >
                 {faq.title}
               </AccordionTrigger>
-              <AccordionContent className="text-[16px] lg:text-[20px] leading-[32px] text-left text-[#1A1A1A]/60 mb-0">
+              <AccordionContent className="text-[16px] lg:text-[20px] leading-[20px] lg:leading-[32px] text-left text-[#1A1A1A]/60 mb-0">
                 {faq.content}
               </AccordionContent>
             </AccordionItem>

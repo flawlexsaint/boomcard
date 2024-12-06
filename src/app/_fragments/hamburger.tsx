@@ -11,12 +11,12 @@ const HamburgerButton: React.FC<HamburgerButtonProps> = ({
 }) => {
   const topVariants: Variants = {
     closed: { rotate: 0, y: 0 },
-    open: { rotate: 45, y: 8 },
+    open: { rotate: 45, y: 9.8 },
   };
 
   const bottomVariants: Variants = {
     closed: { rotate: 0, y: 0 },
-    open: { rotate: -45, y: -8 },
+    open: { rotate: -45, y: -9.8 },
   };
 
   const middleVariants: Variants = {
@@ -34,7 +34,7 @@ const HamburgerButton: React.FC<HamburgerButtonProps> = ({
     <button
       onClick={handleClick}
       aria-label={isOpen ? "Close menu" : "Open menu"}
-      className={`flex flex-col justify-center items-center w-12 h-12 space-y-1.5 z-50 relative`}
+      className={`flex flex-col justify-center items-center w-[40px] h-[40px] space-y-1.5 z-50 relative`}
     >
       <motion.div
         variants={topVariants}
