@@ -20,7 +20,7 @@ export default function Faqs() {
 
   return (
     <section id="faqs">
-      <Wrapper className="lg:w-[55%] xl:w-[875px] py-[12px] lg:py-[56px]">
+      <Wrapper className="lg:w-[55%] xl:w-[875px] py-[12px]">
         <h1 className="font-bold text-[28px] lg:text-[50px] text-center mb-[25px] lg:mb-[38px]">
           Frequently Asked Questions
         </h1>

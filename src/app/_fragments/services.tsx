@@ -37,7 +37,7 @@ export default function Services() {
   };
 
   return (
-    <Wrapper className="h-[860px] md:h-[958px] lg:h-[1300px] xl:h-[1000px]">
+    <Wrapper className="h-[860px] md:h-[1038px] lg:h-[1300px] xl:h-[900px]">
       <div className="bg-[#B6EF8A] w-full py-[73px] px-4 xl:px-[76px] h-[738px] md:h-[798px] lg:h-[1100px] xl:h-[798px] rounded-[20px] xl:rounded-[38px] my-[12px] xl:my-[56px] relative mx-0">
         <div className="block xl:flex" ref={ref}>
           <motion.div

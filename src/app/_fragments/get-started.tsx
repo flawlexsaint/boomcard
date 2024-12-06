@@ -24,7 +24,7 @@ export default function GetStarted() {
           </h3>
           <Button
             variant="secondary"
-            className="w-full xl:w-[200px] h-[52px] text-[16px] font-medium mt-4"
+            className="w-[200px] h-[52px] text-[16px] font-medium mt-4"
           >
             Get Started
           </Button>
