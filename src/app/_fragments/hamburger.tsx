@@ -5,7 +5,7 @@ interface HamburgerButtonProps {
   toggleHamburger?: () => void;
 }
 
-export const HamburgerButton: React.FC<HamburgerButtonProps> = ({
+const HamburgerButton: React.FC<HamburgerButtonProps> = ({
   isOpen,
   toggleHamburger,
 }) => {
@@ -54,3 +54,5 @@ export const HamburgerButton: React.FC<HamburgerButtonProps> = ({
     </button>
   );
 };
+
+export default HamburgerButton;
