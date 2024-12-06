@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { LOGO } from "../../../public/assets/icon";
 import { Button, Wrapper } from "@/components";
 import { MOBILE_NAV_ITEMS, NAV_ITEMS } from "@/components/data";
-import { HamburgerButton } from "./_hamburger";
+import { HamburgerButton } from "@/app/_fragments";
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";

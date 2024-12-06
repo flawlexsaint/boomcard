@@ -24,7 +24,7 @@ export default function Hero() {
     <Wrapper className="py-[12px] lg:py-[45px]">
       <div className="grid xl:grid-cols-5 gap-5">
         <div className="col-span-3 xl:col-span-2">
-          <div className="bg-[#000120] xl:min-h-[780px] p-8 xl:p-[3rem] rounded-[20px] lg:rounded-[38px]">
+          <div className="bg-[#000120] xl:min-h-[798px] p-8 xl:p-[78px] rounded-[20px] lg:rounded-[38px]">
             <h1 className="font-extrabold text-[56px] text-white lg:text-[112px] leading-[95%]">
               Pay <br /> Globally <br /> With <br />
               <TypeAnimation
@@ -36,8 +36,8 @@ export default function Hero() {
               />
             </h1>
             <p className="lg:font-medium my-12 text-white text-[16px] lg:text-[20px]">
-              Shop, Stream, and Subscribe Globally Shop online with the
-              Boom Card around the world
+              Shop, Stream, and Subscribe Globally Shop online with the Boom
+              Card around the world
             </p>
             <Button
               variant="secondary"
@@ -47,7 +47,7 @@ export default function Hero() {
             </Button>
           </div>
         </div>
-        <div className="col-span-3">
+        {/* <div className="col-span-3">
           <div className="relative w-full hidden md:block md:min-h-[780px] h-full">
             <Image
               fill
@@ -155,7 +155,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          {/* MOBILE */}
           <div className="relative w-full min-h-[404px] block md:hidden h-full">
             <Image
               fill
@@ -263,7 +262,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </Wrapper>
   );

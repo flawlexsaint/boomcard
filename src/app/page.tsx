@@ -6,7 +6,7 @@ import {
   GetStarted,
   Services,
   Hero,
-} from "./_fragments/_index";
+} from "./_fragments";
 
 export default function Home() {
   return (
